@@ -11,5 +11,6 @@ After this, a folder will be created, navigate to the folder by typing÷
 Finally you can open index.html in a browser and run the project
 That's it, i know second method is bit complicated 😅 
 Those who wants everything simple can go for (a) procedure, those who wants "adventure" can go for (b) 
-Thank You!
+Thank You! and yes you can try our project from this link also÷
+https://techexplorer100.github.io/Idioms/
 -------------------------------------------

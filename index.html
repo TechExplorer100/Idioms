@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idioms Dictionary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .light-mode {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        #suggestions {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .suggestion-item {
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .suggestion-item:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body class="light-mode">
+    <div class="switch">
+        <button onclick="toggleMode()">Toggle Dark Mode</button>
+    </div>
+    <div class="container">
+        <h1>Idioms Dictionary</h1>
+        <input type="text" id="search" placeholder="Search idiom..." oninput="suggestIdiom()">
+        <div id="suggestions"></div>
+        <div id="idiom-info"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-This is a simple Idiom project! 
+This is a simple Idiom project! (a web based project)
 It contains more than 1000+ idioms with their meanings!
 Enjoy 😁
 -------------------------------------------

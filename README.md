@@ -5,7 +5,8 @@ Enjoy 😁
 To download and run the project follow these steps÷
 (a) You can either download the zip file by tapping on green code button, the  run "index.html" file by tapping it and select browser to run it
 (b) Or you can clone it in terminal
-git clone https://github.com/TechExplorer100/Idioms.git
+
+"git clone https://github.com/TechExplorer100/Idioms.git"
 After this, a folder will be created, navigate to the folder by typing÷
 "cd Idioms"
 Finally you can open index.html in a browser and run the project
